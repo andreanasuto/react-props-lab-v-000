@@ -23,10 +23,16 @@ class Spaceship extends React.Component {
   }
 }
 
+Person.propTypes = {
+  firstName:PropTypes.string,
+  lastName:PropTypes.string,
+  country:PropTypes.string
+};
 
-export default class Spaceship extends React.Component { ... }
 
 ReactDOM.render(
   <Spaceship />,
   document.getElementById('global')
 );
+
+export default class Spaceship extends React.Component { ... }
