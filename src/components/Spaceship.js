@@ -26,7 +26,7 @@ Spaceship.propTypes = {
 Spaceship.getDefaultProps() {
   speed: 'slow',
   hasRockets: false,
-  colors: []
+  colors: ['black', 'red']
 }
 
 
