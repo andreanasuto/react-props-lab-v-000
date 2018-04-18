@@ -5,4 +5,10 @@ class Spaceship extends React.Component {
   constructor() {
 
   }
+
+  render () {
+    return (
+      
+    )
+  }
 }
