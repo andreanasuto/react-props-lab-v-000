@@ -7,6 +7,7 @@ class Spaceship extends React.Component {
     return (
       <div>
         this.props.name
+        this.props.peed
       <div>
     )
   }
