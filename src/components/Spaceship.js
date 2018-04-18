@@ -3,15 +3,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 class Spaceship extends React.Component {
-  propTypes: {
-
-  },
-
-  getDefaultProps() {
-    return {
-      speed: 'slow'
-    };
-  },
 
   render () {
     return (
@@ -28,6 +19,10 @@ Spaceship.propTypes = {
   lastName:PropTypes.string,
   country:PropTypes.string
 };
+
+Spaceship.getDefaultProps() {
+  speed: 'slow'
+}
 
 
 ReactDOM.render(
