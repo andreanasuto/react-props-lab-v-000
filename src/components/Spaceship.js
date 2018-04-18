@@ -9,6 +9,8 @@ class Spaceship extends React.Component {
       <div>
         this.props.name
         this.props.speed
+        this.props.hasRockets
+        this.props.colors
       <div>
     )
   }
@@ -17,7 +19,7 @@ class Spaceship extends React.Component {
 Spaceship.propTypes = {
   name:PropTypes.string,
   speed:PropTypes.integer,
-  country:PropTypes.string
+  country:PropTypes.boolean
 };
 
 Spaceship.getDefaultProps() {
