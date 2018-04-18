@@ -1,7 +1,6 @@
 // Code The Spaceship Component Here
 import React from 'react'
-import ReactDOM from 'react-dom';
-
+import ReactDOM from 'react-dom'
 
 class Spaceship extends React.Component {
 
@@ -16,7 +15,7 @@ class Spaceship extends React.Component {
 }
 
 Spaceship.defaultProps = {
-  name: 'Stranger'
+  speed: 'slow'
 };
 
 export default class Spaceship extends React.Component { ... }
