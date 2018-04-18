@@ -20,11 +20,13 @@ Spaceship.propTypes = {
   name:PropTypes.string,
   speed:PropTypes.integer,
   country:PropTypes.boolean
+  colors: PropTypes.string
 };
 
 Spaceship.getDefaultProps() {
   speed: 'slow'
   hasRockets: false
+
 }
 
 
