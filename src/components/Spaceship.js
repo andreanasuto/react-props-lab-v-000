@@ -23,9 +23,6 @@ class Spaceship extends React.Component {
   }
 }
 
-// Spaceship.defaultProps = {
-//  speed: 'slow'
-// };
 
 export default class Spaceship extends React.Component { ... }
 
