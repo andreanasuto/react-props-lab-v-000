@@ -24,6 +24,7 @@ Spaceship.propTypes = {
 
 Spaceship.getDefaultProps() {
   speed: 'slow'
+  hasRockets: false
 }
 
 
