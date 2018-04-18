@@ -7,10 +7,19 @@ class Spaceship extends React.Component {
     return (
       <div>
         this.props.name
-        this.props.peed
+        this.props.speed
       <div>
     )
   }
 }
 
+Spaceship.defaultProps = {
+  name: 'Stranger'
+};
+
 export default class Spaceship extends React.Component { ... }
+
+ReactDOM.render(
+  <Spaceship />,
+  document.getElementById('root')
+);
