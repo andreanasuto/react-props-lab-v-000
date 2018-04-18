@@ -21,5 +21,5 @@ export default class Spaceship extends React.Component { ... }
 
 ReactDOM.render(
   <Spaceship />,
-  document.getElementById('root')
+  document.getElementById('global')
 );
