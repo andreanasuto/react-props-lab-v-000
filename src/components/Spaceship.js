@@ -23,7 +23,7 @@ class Spaceship extends React.Component {
   }
 }
 
-Person.propTypes = {
+Spaceship.propTypes = {
   firstName:PropTypes.string,
   lastName:PropTypes.string,
   country:PropTypes.string
