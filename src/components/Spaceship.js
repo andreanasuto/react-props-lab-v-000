@@ -2,13 +2,12 @@
 import React from 'react'
 
 class Spaceship extends React.Component {
-  constructor() {
-
-  }
 
   render () {
     return (
-
+      <div>
+        this.props.name
+      <div>
     )
   }
 }
