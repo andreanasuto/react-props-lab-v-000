@@ -8,7 +8,9 @@ class Spaceship extends React.Component {
 
   render () {
     return (
-      
+
     )
   }
 }
+
+export default class Spaceship extends React.Component { ... }
