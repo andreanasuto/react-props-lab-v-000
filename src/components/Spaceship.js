@@ -15,8 +15,8 @@ class Spaceship extends React.Component {
 }
 
 Spaceship.propTypes = {
-  firstName:PropTypes.string,
-  lastName:PropTypes.string,
+  name:PropTypes.string,
+  speed:PropTypes.integer,
   country:PropTypes.string
 };
 
